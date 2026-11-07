@@ -1,29 +1,50 @@
-# Animation 3D Website
+<div align="center">
 
-A strawberry-themed product landing page for **Primo Strawberry**, built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion. The page pairs a scroll-driven bottle visual with animated product storytelling, product details, and a simple add-to-bag interaction.
+# 🍓 Primo Strawberry
 
-## Features
+### An immersive, scroll-driven 3D product landing page
 
-- Scroll-based product bottle animation
-- Animated page transitions and section reveals
-- Responsive product landing page layout
-- Product information maintained in a typed data file
-- Reduced-motion support for the freshness section
-- Add-to-bag button interaction
+A bold product experience built around smooth motion, rich strawberry visuals, and a responsive editorial-style layout.
 
-## Tech stack
+[Getting Started](#-getting-started) · [Features](#-features) · [Project Structure](#-project-structure) · [Customization](#-customization)
 
-- [Next.js](https://nextjs.org/) 16
-- [React](https://react.dev/) 19
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-149eca?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06b6d4?logo=tailwindcss)
 
-## Getting started
+</div>
+
+---
+
+## Overview
+
+**Primo Strawberry** is a product-focused landing page that turns a simple bottle presentation into an animated web experience. Scroll through the product story, explore its details, and discover a rich visual identity supported by motion and responsive design.
+
+## ✨ Features
+
+- **Scroll-driven bottle animation** to bring the product story to life
+- **Motion-enhanced sections** with page transitions and reveal effects
+- **Responsive layout** designed for mobile, tablet, and desktop screens
+- **Typed product content** managed separately from the page components
+- **Reduced-motion consideration** for the freshness section
+- **Interactive add-to-bag feedback** in the product call to action
+
+## 🧰 Built with
+
+| Technology | Purpose |
+| --- | --- |
+| [Next.js](https://nextjs.org/) 16 | React framework and application structure |
+| [React](https://react.dev/) 19 | User interface |
+| [TypeScript](https://www.typescriptlang.org/) | Typed application code |
+| [Tailwind CSS](https://tailwindcss.com/) 3 | Utility-first styling |
+| [Framer Motion](https://www.framer.com/motion/) | Animation and scroll interactions |
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (a current LTS release is recommended)
+- [Node.js](https://nodejs.org/) — a current LTS release is recommended
 - npm
 
 ### Install dependencies
@@ -32,36 +53,47 @@ A strawberry-themed product landing page for **Primo Strawberry**, built with Ne
 npm install
 ```
 
-### Run the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-### Create a production build
+### Build for production
 
 ```bash
 npm run build
 ```
 
-## Project structure
+## 📁 Project Structure
 
 ```text
-├── app/                 # Next.js app entry point, page, and global styles
+.
+├── app/                 # Next.js page and global styles
 ├── components/          # Navigation, footer, bottle animation, and overlays
 ├── data/                # Typed product content
-├── public/              # Static assets used by the site
-└── package.json         # Scripts and dependencies
+├── public/              # Static assets, including product visuals
+└── package.json         # Project scripts and dependencies
 ```
 
-The product content is defined in `data/products.ts`. The bottle animation component is `components/ProductBottleScroll.tsx`; its image assets are referenced from the public directory.
+Product content is defined in `data/products.ts`. The scroll-driven bottle is rendered by `components/ProductBottleScroll.tsx`, with its visual assets served from the `public/` directory.
 
-## Customization
+## 🎨 Customization
 
-Update the product name, copy, price, features, and section content in `data/products.ts`. Place or replace the corresponding static visual assets under `public/` and keep the asset path in the product data in sync.
+- **Product copy and details:** edit the product entry in `data/products.ts`.
+- **Product animation visuals:** add or replace the corresponding image sequence in `public/` and keep its path aligned with the product's `folderPath` value.
+- **Page sections and interactions:** update the relevant files in `app/` and `components/`.
 
-## License
+## 📄 License
 
-No license has been specified for this repository.
+No license has been specified for this repository. Please contact the repository owner before reusing or distributing its code.
+
+---
+
+<div align="center">
+
+Made with care for the Primo Strawberry experience 🍓
+
+</div>
